@@ -1,12 +1,12 @@
 import React, { useState, useRef } from 'react';
 import { Hexagon, ArrowRightLeft, Shield, CheckCircle, Gavel, UserCheck, Coins, ArrowRight, ArrowLeft, Bot, Database, Network, Activity, Radio, Truck, Zap } from 'lucide-react';
 
-// Chain Logos - served from public/chains
-const SolLogo = "/chains/sol.png";
-const BnbLogo = "/chains/bnb-bnb-logo.png";
-const EthLogo = "/chains/ethereum-eth-logo.png";
-const TronLogo = "/chains/tron-trx-logo.png";
-const BaseLogo = "/chains/base-logo-in-blue.png";
+// Chain Logos
+import SolLogo from './assets/sol.png';
+import BnbLogo from './assets/bnb-bnb-logo.png';
+import EthLogo from './assets/ethereum-eth-logo.png';
+import TronLogo from './assets/tron-trx-logo.png';
+import BaseLogo from './assets/base-logo-in-blue.png';
 
 const AbstractLogo = () => (
   <svg viewBox="0 0 32 32" className="w-8 h-8 drop-shadow-[0_0_12px_rgba(167,139,250,0.6)]" fill="none" xmlns="http://www.w3.org/2000/svg">
