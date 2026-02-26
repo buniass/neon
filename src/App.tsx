@@ -3,10 +3,10 @@ import { Hexagon, ArrowRightLeft, Shield, CheckCircle, Gavel, UserCheck, Coins, 
 
 // Chain Logos
 import SolLogo from './assets/sol.png';
-import BnbLogo from './assets/bnb-bnb-logo.png';
-import EthLogo from './assets/ethereum-eth-logo.png';
-import TronLogo from './assets/tron-trx-logo.png';
-import BaseLogo from './assets/base-logo-in-blue.png';
+import BnbLogo from './assets/bnb.png';
+import EthLogo from './assets/eth.png';
+import TronLogo from './assets/tron.png';
+import BaseLogo from './assets/base.png';
 
 const AbstractLogo = () => (
   <svg viewBox="0 0 32 32" className="w-8 h-8 drop-shadow-[0_0_12px_rgba(167,139,250,0.6)]" fill="none" xmlns="http://www.w3.org/2000/svg">
