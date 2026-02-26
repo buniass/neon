@@ -1,0 +1,5 @@
+{
+  "name": "AgentPay",
+  "description": "Stablecoin settlement and escrow for AI agents",
+  "requestFramePermissions": []
+}
