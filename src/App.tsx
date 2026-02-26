@@ -1,6 +1,13 @@
 import React, { useState, useRef } from 'react';
 import { Hexagon, ArrowRightLeft, Shield, CheckCircle, Gavel, UserCheck, Coins, ArrowRight, ArrowLeft, Bot, Database, Network, Activity, Radio, Truck, Zap } from 'lucide-react';
 
+// Chain Logos
+import SolLogo from './assets/sol.png';
+import BnbLogo from './assets/bnb-bnb-logo.png';
+import EthLogo from './assets/ethereum-eth-logo.png';
+import TronLogo from './assets/tron-trx-logo.png';
+import BaseLogo from './assets/base-logo-in-blue.png';
+
 const AbstractLogo = () => (
   <svg viewBox="0 0 32 32" className="w-8 h-8 drop-shadow-[0_0_12px_rgba(167,139,250,0.6)]" fill="none" xmlns="http://www.w3.org/2000/svg">
     <ellipse cx="16" cy="16" rx="6" ry="13" transform="rotate(45 16 16)" stroke="url(#fluidGrad)" strokeWidth="2.5" />
@@ -421,23 +428,23 @@ export default function App() {
             </button>
             <div className="flex items-center gap-6 font-semibold opacity-60">
               <span className="flex items-center gap-2 hover:opacity-100 transition-opacity cursor-pointer text-gray-700">
-                <img src="/src/assets/sol.png" alt="Solana" className="w-5 h-5" />
+                <img src={SolLogo} alt="Solana" className="w-5 h-5" />
                 Solana
               </span>
               <span className="flex items-center gap-2 hover:opacity-100 transition-opacity cursor-pointer text-gray-700">
-                <img src="/src/assets/bnb-bnb-logo.png" alt="BNB Chain" className="w-5 h-5 rounded-full bg-white p-0.5" />
+                <img src={BnbLogo} alt="BNB Chain" className="w-5 h-5 rounded-full bg-white p-0.5" />
                 BNB Chain
               </span>
               <span className="flex items-center gap-2 hover:opacity-100 transition-opacity cursor-pointer text-gray-700">
-                <img src="/src/assets/ethereum-eth-logo.png" alt="Ethereum" className="w-4 h-5" />
+                <img src={EthLogo} alt="Ethereum" className="w-4 h-5" />
                 Ethereum
               </span>
               <span className="flex items-center gap-2 hover:opacity-100 transition-opacity cursor-pointer text-gray-700">
-                <img src="/src/assets/tron-trx-logo.png" alt="Tron" className="w-5 h-5" />
+                <img src={TronLogo} alt="Tron" className="w-5 h-5" />
                 Tron
               </span>
               <span className="flex items-center gap-2 hover:opacity-100 transition-opacity cursor-pointer text-gray-700">
-                <img src="/src/assets/base-logo-in-blue.png" alt="Base" className="w-5 h-5" />
+                <img src={BaseLogo} alt="Base" className="w-5 h-5" />
                 Base
               </span>
             </div>
