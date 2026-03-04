@@ -385,9 +385,9 @@ export default function App() {
                     <span className="text-gray-600"><strong>Tron Speed:</strong> Sub-cent fees and instant finality for micro-transactions between machine actors.</span>
                   </li>
                 </ul>
-                <button className="bg-gray-900 hover:bg-black text-white px-6 py-3 rounded-xl font-semibold transition-colors flex items-center gap-2">
+                <a href="#whitepaper" className="bg-gray-900 hover:bg-black text-white px-6 py-3 rounded-xl font-semibold transition-colors flex items-center gap-2 inline-flex">
                   Read the Whitepaper <ArrowRight className="w-4 h-4" />
-                </button>
+                </a>
               </div>
               <div className="md:w-1/2 flex justify-center">
                 <div className="relative w-full max-w-sm aspect-square bg-gradient-to-br from-teal-50 to-blue-50 rounded-full flex items-center justify-center border-8 border-white shadow-xl">
@@ -784,6 +784,7 @@ export default function App() {
             <div>
               <h4 className="text-sm font-bold uppercase tracking-widest text-gray-400 mb-6">About</h4>
               <ul className="space-y-3 text-sm">
+                <li><a href="#whitepaper" className="text-gray-500 hover:text-white transition-colors">Whitepaper</a></li>
                 <li><a href="#" className="text-gray-500 hover:text-white transition-colors">Manifesto</a></li>
                 <li><a href="#" className="text-gray-500 hover:text-white transition-colors">Ecosystem</a></li>
                 <li><a href="#" className="text-gray-500 hover:text-white transition-colors">Partners</a></li>
